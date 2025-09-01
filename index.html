@@ -17,10 +17,10 @@
             justify-content: center;
             align-items: center;
         }
-        .video-container video {
+        .video-container iframe {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            border: none;
         }
         .image-container img {
             width: 100%;
@@ -31,12 +31,9 @@
 </head>
 <body>
 
-    <!-- Video section -->
+    <!-- Video section (Google Drive) -->
     <div class="video-container">
-        <video autoplay muted loop playsinline>
-            <source src="https://github.com/martinagcorazoncitos-beep/charlasalcorazon/raw/main/assets/video.mp4" type="video/mp4">
-            Tu navegador no soporta este video.
-        </video>
+        <iframe src="https://drive.google.com/file/d/1kUb9jWA1KRGMz-1krMx-fdsGksHeEjlW/preview" allow="autoplay" allowfullscreen></iframe>
     </div>
 
     <!-- Image section -->
